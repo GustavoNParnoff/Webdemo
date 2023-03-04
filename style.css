@@ -1,10 +1,59 @@
-#container, h1{
-    background: violet center;
-    width: 100%;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+body{
+    background-color: rgba(75, 107, 156, 0.993);
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.hdpag{
+    background-color: rgba(22, 83, 110, 0.664);
+    display: flex ;
+    width: 100%;    
 }
 
 
+.hdone{
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+}
+
+.hdtitle{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.hdlinks{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
 
 
+#ttl{ 
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: white;
 
+}
+
+.links {
+    display: flex;
+    margin: 20px 20px 0 0;
+    
+    
+    
+}
+
+.bttinsta, .bttlinkedin, .bttemail, .bttgithub {
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    border-color: none;
+    
+    
+}

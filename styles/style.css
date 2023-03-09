@@ -1,22 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 
+
+*{
+    margin: 0px;
+}
+
 body{
     background-color: rgba(75, 107, 156, 0.993);
-    margin: 0px;
     box-sizing: border-box;
 }
 
 .hdpag{
     background-color: rgba(22, 83, 110, 0.664);
     display: flex ;
-    width: 100%;    
+    width: 100%;
+    position:static; 
+    height: 70px;
+    
 }
 
 
 .hdone{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     width: 30%;
 }
 
@@ -28,32 +35,48 @@ body{
 
 .hdlinks{
     display: flex;
+    position: relative;
     justify-content: flex-end;
     width: 30%;
 }
 
+/* Ajustando menu superior para dipositivos moveis*/
+@media screen and (max-width: 600px) {
+        
+    #ttl{
+        font-size: 0.75em;
+        text-align: center;
+        
+    }
+
+}
 
 #ttl{ 
     font-family: 'Oswald', sans-serif;
+    position: absolute;
     text-align: center;
     color: white;
+    top: 10px;
 
 }
 
 .links {
     display: flex;
-    margin: 20px 20px 0 0;
-    
-    
+    position: relative;    
     
 }
 
-.bttinsta, .bttlinkedin, .bttemail, .bttgithub {
+.btlk {
     background: transparent;
-    justify-content: center;
-    align-items: center;
     border: 1px;
     border-color: none;
-    
+    position: relative;
+    top:40px;
+    right: 5px;
+}
+
+#img_profile {
+    background-size: 50px;
+    border-radius: 100%;
     
 }

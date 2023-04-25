@@ -1,0 +1,12 @@
+{
+    "nome" : "Gustavo",
+    "email" : "gustavo@gmail.com",
+    "telefone" : "99999-999",
+    "linguagens" : [
+        "C++",
+        "Java",
+        "Python",
+        "PHP"
+    ]
+
+}
